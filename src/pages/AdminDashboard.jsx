@@ -1,7 +1,8 @@
 
-import HomePage from "@/components/admin/HomePage";
-import InfoPage from "@/components/admin/InfoPage";
-import OrdersPage from "@/components/admin/OrdersPage";
+import HomePage from "../components/admin/HomePage";
+//import InfoPage from "@/components/admin/InfoPage";
+import InfoPage from "../components/admin/infoPage";
+import OrdersPage from "../components/admin/ordersPage";
 import { Button } from "@/components/ui/button";
 import { UserData } from "@/context/UserContext";
 import { Home, Info, MenuIcon, ShoppingBag, X } from "lucide-react";
